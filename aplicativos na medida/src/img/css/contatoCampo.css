@@ -56,8 +56,10 @@
 .contatoCampo input,
 .contatoCampo textarea {
     font-size: 1em;
+    padding: .5em;
     min-height: 50px;
     border-radius: 8px;
     border: 2px solid #CCC;
     outline: 0;
 }
+
