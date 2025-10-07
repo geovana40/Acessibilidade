@@ -124,3 +124,24 @@
     color: #ce3434;
     cursor: pointer;
 }
+
+@media (min-windt: 830px){
+
+    .dialogNewsletter-body{
+         width: 533px; 
+    }
+
+    .dialogNewsletter-form {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .dialogNewsletter-campo {
+        flex-basis: 80%;
+    }
+
+    .dialogNewsletter-btn {
+        flex-basis: 20%;
+        height: 3.1em;
+    }
+}
