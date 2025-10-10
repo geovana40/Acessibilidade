@@ -63,5 +63,22 @@
 
 .listaDeArtigos-slider-item {
     text-indent: inline-block;
+    display: inline-block;
     overflow: hidden;
+    background-color: #d4d4d4;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0.5em;
+    border: 0;
+}
+
+.listaDeArtigos-slider-item:hover,
+.listaDeArtigos-slider-item:focus {
+    background-color: #a5a5a5;
+    outline: 0;
+}
+
+.listaDeArtigos-item--ativo {
+    background: hsl(200, 70%, 0%, .6);
 }
