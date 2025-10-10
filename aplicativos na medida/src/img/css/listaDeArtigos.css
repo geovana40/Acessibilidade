@@ -46,4 +46,22 @@
     margin: .7em 0;
     font-size: 1.2em;
 }
-    
+
+.listaDeArtigos-artigo-link {
+    color: #EB5757;
+    font-weight: bold;
+}
+
+.listaDeArtigos-slider {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.listaDeArtigos-slider li{
+    display: inline-block;
+}
+
+.listaDeArtigos-slider-item {
+    text-indent: inline-block;
+    overflow: hidden;
+}
